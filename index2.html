@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Dimsum</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" id="options-google-fonts" href="//fonts.googleapis.com/css?family=Lato:300,700&amp;subset=latin&amp;v=1399871455" type="text/css" media="all" />
+<style type="text/css">
+
+.item1 {
+	background-color: #dd5c5a;
+}
+.carousel-image{
+	float: right;
+	margin-right: 50px;
+	min-height: 100%;
+}
+.text-slider {
+	width: 400px;
+	position: absolute;
+	top: 0px;	
+	transition: all 1s ease;
+	margin: 100px 0 0 100px;
+}
+
+.text-slider p {
+	line-height: 48px;
+	color: white;
+	font-family: Lato;
+	font-size: 65px;
+	line-height: 65px;
+	text-align: left;
+	z-index: 2000;
+	opacity: 1;
+}
+
+.slick-current .slick-active .text-slider p {
+	opacity: 1;
+}
+
+.slider-controls {
+	margin-top: 10px;
+    text-align: center;
+}
+</style>
+
+<!-- Mail Chimp -->
+<style type="text/css">
+#mc_embed_signup{
+	background:clear:left; 
+	font:22px Lato,Helvetica,Arial,sans-serif;
+	margin: 100px 0 0 100px;
+	top: 230px ;
+	position: absolute;
+	padding: 0px;
+	width: 400px;
+	line-height: 22px;
+
+}
+.white{
+	color:white;
+}
+</style>
+
+</head>
+<body class="container-fluid">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+	<section id="slider"  >
+		<div class="slider-controls clickable">
+			<div class="slider-buttons">
+				<div class="my-prev">
+					<span class="arrow-left-slider"></span>
+				</div>
+				<div class="my-next">
+					<span class="arrow-right-slider"></span>
+				</div>
+			</div>
+		</div>
+		<div class="my-item">
+			<div class="item1 col-md-12 col-lg-12">				
+				<img class="carousel-image" src="images/new1.png" width="400" alt="slider-1" />
+				<div class="text-slider">
+					<p>Curated apps right in your inbox</p>					
+				</div>
+			</div>
+			<div>				
+				<img src="https://cdn.enginethemes.com/oneengine/2014/04/slider-1.jpg" alt="slider-1" srcset="https://cdn.enginethemes.com/oneengine/2014/04/slider-1.jpg 1440w, https://cdn.enginethemes.com/oneengine/2014/04/slider-1-300x147.jpg 300w, https://cdn.enginethemes.com/oneengine/2014/04/slider-1-1024x502.jpg 1024w" sizes="(max-width: 1440px) 100vw, 1440px" />
+				<div class="text-slider">
+					<p>Curated apps right in your inbox</p>					
+				</div>
+			</div>
+
+			<div>			
+				<img src="https://cdn.enginethemes.com/oneengine/2014/04/slider-2.jpg" alt="slider-2" srcset="https://cdn.enginethemes.com/oneengine/2014/04/slider-2.jpg 1440w, https://cdn.enginethemes.com/oneengine/2014/04/slider-2-300x147.jpg 300w, https://cdn.enginethemes.com/oneengine/2014/04/slider-2-1024x502.jpg 1024w" sizes="(max-width: 1440px) 100vw, 1440px" />
+				<div class="text-slider">
+					<p>We select best apps for you</p>									
+				</div>			
+			</div>
+
+			<div>				
+				<img src="https://cdn.enginethemes.com/oneengine/2014/04/slider-3.jpg" alt="slider-3" srcset="https://cdn.enginethemes.com/oneengine/2014/04/slider-3.jpg 1440w, https://cdn.enginethemes.com/oneengine/2014/04/slider-3-300x147.jpg 300w, https://cdn.enginethemes.com/oneengine/2014/04/slider-3-1024x502.jpg 1024w" sizes="(max-width: 1440px) 100vw, 1440px" />
+				<div class="text-slider">
+					<p>One solution for all your app needs</p>														
+				</div>    
+			</div>
+
+			<div>				
+				<img src="https://cdn.enginethemes.com/oneengine/2014/04/slider-4.jpg" alt="slider-4" srcset="https://cdn.enginethemes.com/oneengine/2014/04/slider-4.jpg 1440w, https://cdn.enginethemes.com/oneengine/2014/04/slider-4-300x147.jpg 300w, https://cdn.enginethemes.com/oneengine/2014/04/slider-4-1024x502.jpg 1024w" sizes="(max-width: 1440px) 100vw, 1440px" />
+				<div class="text-slider">
+					<p>We have no affiliation with apps</p>
+				</div>					
+			</div>
+		</div>			
+		<!-- Begin MailChimp Signup Form -->
+		<div class="col-sm-12" id="mc_embed_signup">
+			<form action="https://getdimsum.us16.list-manage.com/subscribe/post?u=f4e09034ca4cae1ca9400c334&amp;id=9065210c8b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" style="padding:0 0 0 0;" target="_blank" novalidate>
+				<div id="mc_embed_signup_scroll">					
+					<div class="mc-field-group">
+						<label for="mce-NAME" class="white">Name </label>
+						<input focus=true type="text" value="" name="NAME" class="" id="mce-NAME">
+					</div>
+					<div class="mc-field-group">
+						<label for="mce-EMAIL" class="white">Email Address  <span class="asterisk">*</span>
+						</label>
+						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+					</div>
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f4e09034ca4cae1ca9400c334_9065210c8b" tabindex="-1" value=""></div>
+					<div class="clear">
+						<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color:rgb(250,22,78); border-radius:2px; height:50px; font-size:20px; font-weight:bold;">
+					</div>
+				</div>
+			</form>		
+		</div>
+	</section>	
+
+	<script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>         
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.my-item').on().slick({
+		infinite: true,
+		swipe: true,
+		arrows: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: false,
+		autoplaySpeed: 5000,
+		swipe: true			
+	});
+	
+});
+
+</script>
+<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='NAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+</body>
+</html>
