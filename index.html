@@ -57,7 +57,8 @@
   <link rel='stylesheet' id='magnific-popup-css' href='https://oneengine.enginethemes.com/wp-content/themes/oneengine/css/magnific-popup.css?ver=4.5.9' type='text/css' media='all' />
   <link rel='stylesheet' id='main-style-css' href='https://oneengine.enginethemes.com/wp-content/themes/oneengine/style.css?ver=4.5.9' type='text/css' media='all' />
   <link rel='stylesheet' id='custom-css' href='https://oneengine.enginethemes.com/wp-content/themes/oneengine/css/custom-css.php?ver=4.5.9' type='text/css' media='all' />
-  <script type='text/javascript' src='https://oneengine.enginethemes.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+  <script type='text/javascript' src='https://oneengine.enginethemes.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>      
+  </script>
   <script type='text/javascript' src='https://oneengine.enginethemes.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
   <link rel='https://api.w.org/' href='https://oneengine.enginethemes.com/wp-json/' />
   <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://oneengine.enginethemes.com/xmlrpc.php?rsd" />
@@ -122,9 +123,6 @@
   </style>
   <link rel="stylesheet" id="options-google-fonts" href="http://fonts.googleapis.com/css?family=Lato:300,700&amp;subset=latin&amp;v=1399871455" type="text/css" media="all" />
   <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-
-   <!-- MAILCHIMP asset -->
-  <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='NAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
   <!-- Google Tag Manager -->
   <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TS4RDD"
@@ -340,6 +338,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script type='text/javascript' src='https://oneengine.enginethemes.com/wp-content/themes/oneengine/js/main.js?ver=1.0.0'></script>
   <script type='text/javascript' src='https://oneengine.enginethemes.com/wp-content/themes/oneengine/js/front.js?ver=1.0.0'></script>
   <script type='text/javascript' src='https://oneengine.enginethemes.com/wp-includes/js/wp-embed.min.js?ver=4.5.9'></script>
+
+
+   <!-- MAILCHIMP asset -->
+  <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='NAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+  <script type="text/javascript">
+    jQuery(function( $ ) {
+    var $carousel = $(".owl-carousel");
+    var owl = $carousel.data('owlCarousel'); 
+    console.log(owl);
+    owl.reinit({
+      autoPlay:true,
+      autoPlayTimeout:1000,
+      autoPlayHoverPause:false
+      });
+    });
+  </script>
+
 </body>
 
 </html>
